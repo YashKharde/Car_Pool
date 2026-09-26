@@ -1,0 +1,43 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Java and Angular build output
+**/target/
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
+**/build/
+
+# Infrastructure state and private variable values
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.example.tfvars
+!*.example.tfvars.json
+
+# Local tools and scratch data
+.idea/
+.vscode/
+*.iml
+*.log
+**/__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+work/
+tmp/
+
+# Keep dependency lockfiles, Maven wrapper and versioned documentation tracked.
